@@ -104,12 +104,14 @@ article img {
 }
 
 .w:nth-child(1) {
-    @include floating1
+    @include floating1;
+
 }
 
 .g:nth-child(1) {
 
     @include floating1;
+    z-index: 4
 }
 
 .g:nth-child(2) {

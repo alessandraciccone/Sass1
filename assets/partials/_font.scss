@@ -1,10 +1,15 @@
-$font: font-family("Arial", sans-serif);
+$font: font-family ("arial", sans-serif);
 $font-size1: 16px;
-$font-size2: 35px;
+$font-size2: xx-large;
+$font-size3: x-large;
 
 h1 {
     font-family: $font;
     font-size: $font-size2;
     text-align: center;
     color: $my-text
+}
+
+li {
+    font-size: $font-size3
 }
