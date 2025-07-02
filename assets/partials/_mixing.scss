@@ -1,0 +1,45 @@
+$bord-ra: 2em;
+$box-sh: 0 10px 20px -5px rgba(255, 255, 255, 0.894);
+
+$b-co: 1px, solid, white;
+
+$bord1-Ra1: 1em;
+$box1-sh1: 0 10px 20px -5px rgba(0, 168, 246, 0.894);
+
+$bord2-Ra2: 2em;
+$box2-sh2: 0 10px 10px -5px rgba(201, 120, 50, 0.894);
+
+$bord3-Ra3: 2.2em;
+$box3-sh3: 0 10px 10px -5px rgba(19, 2, 2, 0.894);
+
+
+
+$box-ss: 0 10px 10px -5px rgba(0, 0, 0, 0.894);
+
+@mixin floating {
+    border-radius: $bord-ra;
+    box-shadow: $box-sh;
+    border: $b-co;
+
+}
+
+
+@mixin floating1 {
+    border-radius: $bord1-Ra1;
+    box-shadow: $box1-sh1;
+}
+
+@mixin floating2 {
+    border-radius: $bord2-Ra2;
+    box-shadow: $box2-sh2
+}
+
+@mixin floating3 {
+    border-radius: $bord3-Ra3;
+    box-shadow: $box3-sh3
+}
+
+@mixin floating4 {
+    border-radius: $bord2-Ra2;
+    box-shadow: $box2-sh2;
+}

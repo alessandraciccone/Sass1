@@ -1,0 +1,11 @@
+$color-map: (
+    green: #4caf50,
+    orange: #ff8700,
+    blue: #0e6cff
+);
+
+@each $name, $value in $color-map {
+    .text-#{$name} {
+        color: $value;
+    }
+}

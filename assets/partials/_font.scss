@@ -1,0 +1,10 @@
+$font: font-family("Arial", sans-serif);
+$font-size1: 16px;
+$font-size2: 35px;
+
+h1 {
+    font-family: $font;
+    font-size: $font-size2;
+    text-align: center;
+    color: $my-text
+}
