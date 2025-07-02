@@ -89,11 +89,31 @@ $spacings: (
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+}
+
+article img {
+    width: 200px;
+    /* larghezza fissa */
+    height: 300px;
+    /* altezza fissa */
+    object-fit: cover;
+    /* ritaglia e scala per coprire l’area */
+    display: block;
+    /* rimuove gli spazi bianchi sotto l’immagine */
 }
 
 .w:nth-child(1) {
+    @include floating1
+}
+
+.g:nth-child(1) {
 
     @include floating1;
+}
+
+.g:nth-child(2) {
+    @include floating2
 }
 
 .w:nth-child(2) {
@@ -104,12 +124,18 @@ $spacings: (
     @include floating3
 }
 
+.g:nth-child(3):nth-child(3) {
+    @include floating3
+}
+
 ;
 
 .w:last-child {
     @include floating4
 }
 
-.xx {
-    width: 900px
+.g:last-child {
+    @include floating4
 }
+
+;
